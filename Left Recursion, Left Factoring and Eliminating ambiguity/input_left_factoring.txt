@@ -1,0 +1,6 @@
+Enter any productions A->cde|cdf
+
+# Output 
+A->cdX
+ X->e|f
+
