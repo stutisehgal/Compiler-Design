@@ -1,0 +1,32 @@
+Enter the no of productions:6
+
+Enter the productions one by one
+
+E->E+E
+
+E->T
+
+T->T*F
+
+F->(E)
+
+T->F
+
+F->i
+
+# Output
+
+Leading[E]	{+,*,(,i,}
+
+Leading[T]	{*,(,i,}
+
+Leading[F]	{(,i,}
+
+Trailing[E]	{+,*,),i,}
+
+Trailing[T]	{*,),i,}
+
+Trailing[F]	{),i,}
+
+
+
