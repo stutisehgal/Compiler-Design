@@ -1,0 +1,11 @@
+4
+* b c d
++ a b e
+* b c z
+- e z a
+
+# Output
+
+* b c d
++ a b e
+- e d a
