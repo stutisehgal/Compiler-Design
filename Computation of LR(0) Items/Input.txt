@@ -1,0 +1,118 @@
+Augmented Grammar
+
+-----------------
+
+S->L=R
+
+'->S->L=R
+
+S->R
+
+S->R
+
+L->*R
+
+L->*R
+
+L->id
+
+L->id
+
+R->L
+
+R->L
+
+'->S->L=R
+
+'->S->L=R
+
+
+# Output
+
+
+Sets of LR(0) Items
+
+-------------------
+
+I0:
+
+	'->@S->L=R           goto(S)=I1
+
+	S->@R                goto(R)=I2
+
+	L->@*R               goto(*)=I3
+
+	L->@id               goto(i)=I4
+
+	R->@L                goto(L)=I5
+
+	'->@S->L=R          
+
+I1:
+
+	'->S@->L=R           goto(-)=I6
+
+I2:
+
+	S->R@               
+
+I3:
+
+	L->*@R               goto(R)=I7
+
+	R->@L                goto(L)=I5
+
+	L->@*R               goto(*)=I3
+
+	L->@id               goto(i)=I4
+
+I4:
+
+	L->i@d               goto(d)=I8
+
+I5:
+
+	R->L@               
+
+I6:
+
+	'->S-@>L=R           goto(>)=I9
+
+I7:
+
+	L->*R@              
+
+I8:
+
+	L->id@              
+
+I9:
+
+	'->S->@L=R           goto(L)=I10
+
+	L->@*R               goto(*)=I3
+
+	L->@id               goto(i)=I4
+
+I10:
+
+	'->S->L@=R           goto(=)=I11
+
+I11:
+
+	'->S->L=@R           goto(R)=I12
+
+	R->@L                goto(L)=I5
+
+	L->@*R               goto(*)=I3
+
+	L->@id               goto(i)=I4
+
+I12:
+
+	'->S->L=R@          
+
+
+
+
+
