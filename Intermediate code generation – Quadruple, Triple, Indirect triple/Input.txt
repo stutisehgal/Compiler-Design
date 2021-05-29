@@ -1,0 +1,56 @@
+Enter a valid infix expression  
+
+a=(b+c)*(d+e)
+
+# Output
+
+Three address code: 
+
+
+
+t( 1 ) = b + c
+
+t( 2 ) = d + e
+
+t( 3 ) = t(1) * t(2)
+
+a = t(3)
+
+
+
+
+
+Quadruple: 
+
+
+
+ op  | arg1 | arg2|result
+
+ +   |  b   |  c  | t(1)
+
+ +   |  d   |  e  | t(2)
+
+ *   | t(1) | t(2)| t(3)
+
+ =   | t(3) | (-) |a   
+
+
+
+
+
+Triple: 
+
+
+
+ op  | arg1 | arg2
+
+ +   |  b   |  c  
+
+ +   |  d   |  e  
+
+ *   | (0)  | (1) 
+
+ =   |  a   | (2) 
+
+
+
