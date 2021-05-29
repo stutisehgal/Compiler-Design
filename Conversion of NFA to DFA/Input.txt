@@ -1,0 +1,78 @@
+
+
+Enter no. of states in NFA : 3
+
+
+
+Enter the start state : 0
+
+Enter the no. of final states : 1
+
+
+
+Enter the final states : 
+
+2
+
+
+
+Enter the no. of input symbols : 2
+
+
+
+Enter the input symbols : 
+
+ a b
+
+
+
+Enter the transitions : (-1 to stop)
+
+move(0,a) :0
+
+move(0,a) :1
+
+move(0,a) :-1
+
+move(0,b) :-1
+
+move(0,e) :-1
+
+move(1,a) :-1
+
+move(1,b) :2
+
+move(1,b) :-1
+
+move(1,e) :-1
+
+move(2,a) :-1
+
+move(2,b) :-1
+
+move(2,e) :-1
+
+
+
+# Output		 
+
+DFA Transition Table 
+
+		 -------------------- 
+
+States	String	Inputs
+
+ 	a	b
+
+ 	----------
+
+A	0	B	C
+
+B	01	B	D
+
+C		C	C
+
+D	2	C	C
+
+
+
