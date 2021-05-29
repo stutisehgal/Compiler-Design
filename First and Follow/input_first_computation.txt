@@ -1,0 +1,26 @@
+How many number of productions ? :8
+Enter productions Number 1 : E=TD
+Enter productions Number 2 : D=+TD
+Enter productions Number 3 : D=$
+Enter productions Number 4 : T=FS
+Enter productions Number 5 : S=*FS
+Enter productions Number 6 : S=$
+Enter productions Number 7 : F=(E)
+Enter productions Number 8 : F=a
+
+ Find the FIRST of  :E
+
+ FIRST(E)= {  (  a }
+press 'y' to continue : y
+
+ Find the FIRST of  :Y
+
+ FIRST(Y)= { }
+press 'y' to continue : Y
+
+ Find the FIRST of  :a
+
+ FIRST(a)= {  a }
+press 'y' to continue : y
+
+ Find the FIRST of  :
