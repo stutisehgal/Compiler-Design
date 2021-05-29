@@ -1,0 +1,50 @@
+Enter the number of productions : 5
+
+Enter the productions
+
+S->aXYb
+
+Enter first for aXYb : a
+
+X->c
+
+Enter first for c : c
+
+X->#
+
+Enter first for # : #
+
+X->d
+
+Enter first for d : d
+
+X->#
+
+Enter first for # : #
+
+Enter the number of Terminals : 4
+
+Enter the Terminals
+
+a
+
+b
+
+c
+
+d
+
+Enter the number of Non-Terminals : 3
+
+Enter Non-Terminal : S
+
+Enter follow of S : $
+
+Enter Non-Terminal : X
+
+Enter follow of X : bd
+
+Enter Non-Terminal : Y
+
+Enter follow of Y : b
+
