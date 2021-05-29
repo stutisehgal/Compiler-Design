@@ -1,0 +1,35 @@
+
+Enter the NON TERMINALS: ETF
+
+Enter the number of productions for E: 2
+
+Enter the number of productions for T: 2
+
+Enter the number of productions for F: 2
+
+Enter the productions for E: 
+E->E+T
+
+E->T
+
+Enter the productions for T: 
+T->T*F
+
+T->F
+
+Enter the productions for F: 
+F->(E)
+
+F->i
+
+# Output
+
+The resulting productions after eliminating Left Recursion are : 
+
+E->TE'
+T->FT'
+E' -> +TE'|�
+T' -> *FT'|�
+F -> (E)
+F -> i
+
