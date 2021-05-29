@@ -1,0 +1,25 @@
+
+Enter Total Number of Productions:	8
+
+Value of Production Number [1]:	E=TD
+
+Value of Production Number [2]:	D=+TD
+
+Value of Production Number [3]:	D=$
+
+Value of Production Number [4]:	T=FS
+
+Value of Production Number [5]:	S=*FS
+
+Value of Production Number [6]:	S=$
+
+Value of Production Number [7]:	F=(E)
+
+Value of Production Number [8]:	F=a
+
+Enter production Value to Find Follow:	a
+
+Follow Value of a:	{ * $ ) }
+To Continue, Press Y:	y
+
+Enter production Value to Find Follow:	
